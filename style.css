@@ -5,17 +5,18 @@
 }
 
 .header{
-    background: url(data-solutions.png);
+    background: url(ecommerce.jpg);
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     background-attachment: fixed;
 }
 .nav{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
-    top: 10px;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    top: 0;
     position: sticky;
     font-family: 'Oswald', sans-serif;
     
@@ -58,7 +59,7 @@ p{
     line-height: 50px;
 }
 .white{
-    background-color: grey;
+    background-color: white;
 }
 .link{
     border: 2px black ;
